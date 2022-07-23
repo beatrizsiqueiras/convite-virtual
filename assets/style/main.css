@@ -1,0 +1,53 @@
+:root {
+    --navbar-height: 60px;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #fdfff1;
+    height: var(--navbar-height);
+    font-family: Raleway;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    padding: 0;
+    color: #606c38;
+}
+
+.navbar-link,
+.nav-link:hover,
+.nav-link:visited,
+.nav-item {
+    color: #606c38;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+}
+
+svg{
+    color: #757677;
+}
+/* --- */
+
+
+body {
+    color: #757677;
+    font-family: Raleway;
+    background-color: #e9edc9;
+}
+
+.fotoCasal1{
+    height: 400px;
+    width: 400px;
+}

@@ -6,7 +6,7 @@
 .navbar {
     background-color: #fdfff1;
     height: var(--navbar-height);
-    font-family: Raleway;
+    font-family: Century Gothic;
 }
 
 #nav-container {
@@ -21,7 +21,6 @@
 .navbar-brand {
     color: #606c38;
     font-size: 25px;
-
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {

@@ -6,7 +6,7 @@
 .navbar {
     background-color: #fdfff1;
     height: var(--navbar-height);
-    font-family: Century Gothic;
+    font-family: Courier New;
 }
 
 #nav-container {
@@ -39,7 +39,7 @@ svg{
 
 body {
     color: #757677;
-    font-family: Raleway;
+    font-family: Courier New;
     background-color: #e9edc9;
 }
 

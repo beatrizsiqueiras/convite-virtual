@@ -26,10 +26,10 @@ svg {
 
 
 body {
-    color: #e2e2e2;
+    color: #d8d2d2;
     font-family: Courier New;
-    background-color: #a3b18a;
-    text-shadow: 1px 1px 2px #4d6953;
+    background-color: #b3bea0;
+    text-shadow: 1px 1px 2px #819986;
 }
 
 .container {
@@ -70,7 +70,7 @@ body {
 #linkConvites,
 #linkConvites:hover,
 #linkConvites:visited {
-    color: #588157;
+    color: #799778;
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ body {
     background-color: #dad7cd;
     font-weight: bold;
     border-radius: 0%;
-    color: #3a5a40;
+    color: #627966;
     text-shadow: 1px 1px 2px #fdf0d5;
 }
 .btn-convites:hover, .textoBtnConvites:hover{

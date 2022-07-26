@@ -13,7 +13,7 @@
 .link-nav:visited,
 .nav-item,
 .navbar-brand {
-    color: #588157;
+    color: #283618;
     font-size: 22px;
     font-weight: 50px;
 }
@@ -26,7 +26,7 @@ svg {
 
 
 body {
-    color: #d8d2d2;
+    color: #fefae0;
     font-family: Courier New;
     background-color: #b3bea0;
     text-shadow: 1px 1px 2px #819986;
@@ -50,7 +50,7 @@ body {
 }
 
 .frase1 {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: thin;
     text-align: center;
 }
@@ -70,17 +70,17 @@ body {
 #linkConvites,
 #linkConvites:hover,
 #linkConvites:visited {
-    color: #799778;
+    color: #fefae0;
     text-decoration: none;
 }
 
 .btn-convites, .textoBtnConvites{
     font-family: Courier New;
-    background-color: #dad7cd;
+    background-color: #f7f8f8;
     font-weight: bold;
     border-radius: 0%;
     color: #627966;
-    text-shadow: 1px 1px 2px #fdf0d5;
+    text-shadow: 1px 1px 2px #fefae0;
 }
 .btn-convites:hover, .textoBtnConvites:hover{
     background-color: #ccd5ae;

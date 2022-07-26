@@ -52,9 +52,10 @@ body {
 }
 
 .frasesConviteCursive {
-    font-family: Lucida Handwriting;
-    font-size: 30px;
-    font-weight: 100;
+    font-family:Baskerville;
+    font-size: 45px;
+    font-weight: 50;
+    font-style: oblique;
 }
 
 #linkConvites,

@@ -1,4 +1,3 @@
-
 /* NAVBAR */
 .navbar {
     background-color: #fdfff1;
@@ -34,20 +33,33 @@ body {
     width: 400px;
 }
 
-#img-1-sobre,
-#img-2-sobre {
+#imagemSobreSection{
     width: 350px;
     height: 350px;
     object-fit: cover;
 }
 
-.frase1{
-    font-size: 26px;
-    font-weight: bolder;
+.frase1 {
+    font-size: 22px;
+    font-weight: thin;
     text-align: center;
 }
-.container{
-    width: 700px; 
+
+.container {
+    width: 700px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+}
+
+.frasesConviteCursive {
+    font-family: Lucida Handwriting;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#linkConvites,
+#linkConvites:hover,
+#linkConvites:visited {
+    color: #757677;
+    text-decoration: none;
 }

@@ -1,39 +1,24 @@
-:root {
-    --navbar-height: 60px;
-}
 
 /* NAVBAR */
 .navbar {
     background-color: #fdfff1;
-    height: var(--navbar-height);
     font-family: Courier New;
 }
 
-#nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
-}
 
 .navbar-link,
 .nav-link:hover,
 .nav-link:visited,
-.nav-item, 
+.nav-item,
 .navbar-brand {
     color: #606c38;
-    font-size: 25px;
+    font-size: 24px;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
-}
-
-.nav-item.active {
-    border-bottom: 3px solid #FFF;
-}
-
-svg{
+svg {
     color: #757677;
 }
+
 /* --- */
 
 
@@ -43,7 +28,25 @@ body {
     background-color: #e9edc9;
 }
 
-.fotoCasal1{
+.fotoCasal1 {
     height: 400px;
     width: 400px;
+}
+
+#img-1-sobre,
+#img-2-sobre {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.frase1{
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+}
+.container{
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
 }

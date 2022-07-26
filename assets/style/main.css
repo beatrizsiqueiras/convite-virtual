@@ -1,8 +1,9 @@
 /* NAVBAR */
 .navbar {
-    background-color: #fdfff1;
-    font-family: Courier New;
-    height: 45px;
+    background-color: #f7f8f8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: condensed;
+    font-weight: lighter;
 }
 
 
@@ -11,8 +12,9 @@
 .nav-link:visited,
 .nav-item,
 .navbar-brand {
-    color: #606c38;
+    color: #354f52;
     font-size: 23px;
+    font-weight: 50px;
 }
 
 svg {
@@ -23,9 +25,9 @@ svg {
 
 
 body {
-    color: #757677;
+    color: #cad2c5;
     font-family: Courier New;
-    background-color: #e9edc9;
+    background-color: #354f52;
 }
 
 .fotoCasal1 {
@@ -51,6 +53,10 @@ body {
     margin-right: auto;
 }
 
+.fonteNomes{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 60px;
+}
 .frasesConviteCursive {
     font-family:Baskerville;
     font-size: 45px;
@@ -61,6 +67,15 @@ body {
 #linkConvites,
 #linkConvites:hover,
 #linkConvites:visited {
-    color: #757677;
+    color: #ffffff;
     text-decoration: none;
+}
+
+.btn-convites{
+    background-color: #52796f;
+    font-weight: bold;
+    border-radius: 0%;
+}
+.btn-convites:hover{
+    background-color: #84a98c;
 }

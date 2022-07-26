@@ -1,19 +1,20 @@
 /* NAVBAR */
 .navbar {
     background-color: #f7f8f8;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
     font-stretch: condensed;
     font-weight: lighter;
+    text-shadow: none;
 }
 
 
-.navbar-link,
-.nav-link:hover,
-.nav-link:visited,
+.link-nav,
+.link-nav:hover,
+.link-nav:visited,
 .nav-item,
 .navbar-brand {
-    color: #354f52;
-    font-size: 23px;
+    color: #588157;
+    font-size: 22px;
     font-weight: 50px;
 }
 
@@ -25,9 +26,16 @@ svg {
 
 
 body {
-    color: #cad2c5;
+    color: #e2e2e2;
     font-family: Courier New;
-    background-color: #354f52;
+    background-color: #a3b18a;
+    text-shadow: 1px 1px 2px #4d6953;
+}
+
+.container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fotoCasal1 {
@@ -47,15 +55,10 @@ body {
     text-align: center;
 }
 
-.container {
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .fonteNomes{
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 60px;
+    font-family: Calibri;
+    font-stretch: condensed;
+    font-weight: lighter;
 }
 .frasesConviteCursive {
     font-family:Baskerville;
@@ -67,15 +70,18 @@ body {
 #linkConvites,
 #linkConvites:hover,
 #linkConvites:visited {
-    color: #ffffff;
+    color: #588157;
     text-decoration: none;
 }
 
-.btn-convites{
-    background-color: #52796f;
+.btn-convites, .textoBtnConvites{
+    font-family: Courier New;
+    background-color: #dad7cd;
     font-weight: bold;
     border-radius: 0%;
+    color: #3a5a40;
+    text-shadow: 1px 1px 2px #fdf0d5;
 }
-.btn-convites:hover{
-    background-color: #84a98c;
+.btn-convites:hover, .textoBtnConvites:hover{
+    background-color: #ccd5ae;
 }

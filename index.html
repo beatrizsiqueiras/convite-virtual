@@ -19,11 +19,11 @@
             <div class="container-fluid row g-0">
                 <div class="col-6 col-md-6 text-end">
                     <img src="assets/img/suit-heart.svg" alt="">
-                    <a class="navbar-brand" href="#mainSection">Juliana e Anderson</a>
+                    <a class="navbar-brand link-nav" href="#mainSection">Juliana e Anderson</a>
                 </div>
                 <div class="col-6 col-md-6 text-start">
-                    <a class="navbar-brand" href="#sobreSection">Sobre nós</a>
-                    <a class="navbar-brand" href="#conviteSection">Convites</a>
+                    <a class="navbar-brand link-nav" href="#sobreSection">Sobre nós</a>
+                    <a class="navbar-brand link-nav" href="#conviteSection">Convites</a>
                 </div>
             </div>
         </nav>
@@ -46,8 +46,10 @@
                 <p class="frase1 text-end"> – Rute 1:16-17</p>
             </div>
             <div class="row justify-content-center">
-                <img src="assets/img/casal2.jpg" class="rounded float-center" id="imagemSobreSection" alt="Juliana e Anderson">
-                <img src="assets/img/casal1.jpg" class="rounded float-center " id="imagemSobreSection" alt="Juliana e Anderson">
+                <img src="assets/img/casal2.jpg" class="rounded float-center" id="imagemSobreSection"
+                    alt="Juliana e Anderson">
+                <img src="assets/img/casal1.jpg" class="rounded float-center " id="imagemSobreSection"
+                    alt="Juliana e Anderson">
             </div>
         </section>
         <section id="conviteSection" class="default-sections-min-height py-5">
@@ -59,18 +61,30 @@
                 <p class="frasesConviteCursive text-center">Sítio Riacho Doce</p>
                 <p class="frase1 text-center">Comunidade do Cedro, saída de Teófilo Otoni em direção a Frei Gaspar</p>
             </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-                <button type="button" class="btn btn-convites">
-                    <a  id="linkConvites" href="">Confirme a sua presença</a>
-                </button>
-                <button type="button" class="btn btn-convites">
-                    <a  id="linkConvites"href=""> Lista de Presentes</a>
-                </button>
-                <button type="button" class="btn btn-convites" >
-                    <a id="linkConvites" href="https://goo.gl/maps/x9aJZLohDbHFq3dF8">Como chegar</a> 
-                </button>
+            <div class="d-grid gap-2 col-6 mx-auto ">
+                <div class="btn-convites text-center">
+                    <a id="linkConvites" href="https://wa.me/message/BSIJTS5AVU5XI1" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn textoBtnConvites">Confirme a sua presença</button>
+                    </a>
+                </div>
+                <div class="btn-convites text-center">
+                    <a id="linkConvites" href="http://finalfeliz.de/juliana-siqueira-anderson-magalhaes" target="_blank" rel="noopener noreferrer"> 
+                        <button type="button" class="btn textoBtnConvites ">Lista de Presentes</button>
+                    </a>
+                </div>
+                <div class="btn-convites text-center">
+                    <a id="linkConvites" href="#divEndereco"> 
+                        <button type="button" class="btn textoBtnConvites">Como chegar</button>
+                    </a>            
+                </div>
             </div>
-
+            <div class="col-12 mt-5" id="divEndereco">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.3965667438!2d-41.495210385721975!3d-17.960277684717603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb39dbee107ad19%3A0x5222562d07902a50!2sS%C3%ADto%20Riacho%20Doce!5e0!3m2!1spt-BR!2sbr!4v1658873451979!5m2!1spt-BR!2sbr"
+                    width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </section>
     </div>
 </body>

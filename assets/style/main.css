@@ -17,11 +17,6 @@
     font-size: 22px;
     font-weight: 50px;
 }
-
-svg {
-    color: #757677;
-}
-
 /* --- */
 
 
@@ -55,11 +50,6 @@ body {
     text-align: center;
 }
 
-.fonteNomes{
-    font-family: Monaco;
-    font-stretch: condensed;
-    font-weight: lighter;
-}
 .frasesConviteCursive {
     font-family:Baskerville;
     font-size: 45px;

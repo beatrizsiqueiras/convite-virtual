@@ -3,6 +3,7 @@
 .navbar {
     background-color: #fdfff1;
     font-family: Courier New;
+    height: 45px;
 }
 
 
@@ -12,7 +13,7 @@
 .nav-item,
 .navbar-brand {
     color: #606c38;
-    font-size: 24px;
+    font-size: 23px;
 }
 
 svg {

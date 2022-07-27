@@ -3,7 +3,7 @@
     background-color: #f7f8f8;
     font-family: Calibri;
     font-stretch: condensed;
-    font-weight: lighter;
+    font-weight: bolder;
     text-shadow: none;
 }
 
@@ -13,9 +13,8 @@
 .link-nav:visited,
 .nav-item,
 .navbar-brand {
-    color: #283618;
+    color: #a3b18a;
     font-size: 22px;
-    font-weight: 50px;
 }
 /* --- */
 
@@ -74,4 +73,11 @@ body {
 }
 .btn-convites:hover, .textoBtnConvites:hover{
     background-color: #ccd5ae;
+}
+
+.imgGreenHeart{
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }

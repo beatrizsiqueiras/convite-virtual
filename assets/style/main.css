@@ -16,6 +16,7 @@
     color: #a3b18a;
     font-size: 22px;
 }
+
 /* --- */
 
 
@@ -37,7 +38,7 @@ body {
     width: 400px;
 }
 
-#imagemSobreSection{
+#imagemSobreSection {
     width: 350px;
     height: 350px;
     object-fit: cover;
@@ -50,7 +51,7 @@ body {
 }
 
 .frasesConviteCursive {
-    font-family:Baskerville;
+    font-family: Baskerville;
     font-size: 45px;
     font-weight: 50;
     font-style: oblique;
@@ -63,7 +64,8 @@ body {
     text-decoration: none;
 }
 
-.btn-convites, .textoBtnConvites{
+.btn-convites,
+.textoBtnConvites {
     font-family: Courier New;
     background-color: #f7f8f8;
     font-weight: bold;
@@ -71,13 +73,55 @@ body {
     color: #627966;
     text-shadow: 1px 1px 2px #fefae0;
 }
-.btn-convites:hover, .textoBtnConvites:hover{
+
+.btn-convites:hover,
+.textoBtnConvites:hover {
     background-color: #ccd5ae;
 }
 
-.imgGreenHeart{
+.imgGreenHeart {
     width: 25px;
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 5px;
+}
+
+.greenHeart2 {
+    width: 40px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.vetGreen {
+    width: 40px;
+    transform: translateY(0px);
+    animation: float2 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(1px);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes float2 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }

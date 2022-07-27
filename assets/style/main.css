@@ -1,6 +1,6 @@
 /* NAVBAR */
 .navbar {
-    background-color: #f7f8f8;
+    background-color: #f8f8f7;
     font-family: Calibri;
     font-stretch: condensed;
     font-weight: bolder;
@@ -13,7 +13,7 @@
 .link-nav:visited,
 .nav-item,
 .navbar-brand {
-    color: #a3b18a;
+    color: #656d4a;
     font-size: 22px;
 }
 
@@ -21,10 +21,9 @@
 
 
 body {
-    color: #718355;
+    color: #fefae0;
     font-family: Courier New;
-    background-color: #dde5b6;
-    text-shadow: 1px 1px 2px #97a97c;
+    background-color: #344e41;
 }
 
 .container {
@@ -67,11 +66,10 @@ body {
 .btn-convites,
 .textoBtnConvites {
     font-family: Courier New;
-    background-color: #f7f8f8;
+    background-color: #fefae0;
     font-weight: bold;
     border-radius: 0%;
-    color: #627966;
-    text-shadow: 1px 1px 2px #fefae0;
+    color: #656d4a;
 }
 
 .btn-convites:hover,
@@ -86,13 +84,13 @@ body {
     margin-bottom: 5px;
 }
 
-.greenHeart2 {
+.whiteHeart2 {
     width: 40px;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
 }
 
-.vetGreen{
+.arrow{
     width: 40px;
     transform: translateY(0px);
     animation: float2 5s ease-in-out infinite;

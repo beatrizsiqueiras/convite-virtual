@@ -66,7 +66,7 @@ body {
 .btn-convites,
 .textoBtnConvites {
     font-family: Courier New;
-    background-color: #fefae0;
+    background-color: #faf9f5;
     font-weight: bold;
     border-radius: 0%;
     color: #656d4a;
@@ -74,7 +74,7 @@ body {
 
 .btn-convites:hover,
 .textoBtnConvites:hover {
-    background-color: #ccd5ae;
+    background-color: #f8f8f7;
 }
 
 .imgGreenHeart {

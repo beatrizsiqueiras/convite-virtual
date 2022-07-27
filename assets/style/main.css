@@ -21,10 +21,10 @@
 
 
 body {
-    color: #fefae0;
+    color: #718355;
     font-family: Courier New;
-    background-color: #b3bea0;
-    text-shadow: 1px 1px 2px #819986;
+    background-color: #dde5b6;
+    text-shadow: 1px 1px 2px #97a97c;
 }
 
 .container {
@@ -92,7 +92,7 @@ body {
     animation: float 5s ease-in-out infinite;
 }
 
-.vetGreen {
+.vetGreen{
     width: 40px;
     transform: translateY(0px);
     animation: float2 5s ease-in-out infinite;
@@ -125,3 +125,4 @@ body {
         transform: translateY(0px);
     }
 }
+

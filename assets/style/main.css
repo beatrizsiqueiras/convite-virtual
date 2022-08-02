@@ -23,7 +23,7 @@
 body {
     color: #3e5622;
     font-family: Courier New;
-    background-color: #cfe1b9;
+    background-color: #dfebd2;
 }
 
 .container {
@@ -60,6 +60,11 @@ body {
 #linkConvites:visited {
     color: #fefae0;
     text-decoration: none;
+}
+
+.pix{
+    color: #4d583a;
+    font-weight: bolder;
 }
 
 .btn-convites,

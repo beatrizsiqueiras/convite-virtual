@@ -3,7 +3,7 @@ const timeElapsed = Date.now();
 let dataInicial = new Date(timeElapsed);
 dataInicial = dataInicial.toLocaleDateString();
 
-let dataFinal = new Date(2023, 8, 13);
+let dataFinal = new Date(2023, 7, 13);
 dataFinal = dataFinal.toLocaleDateString();
 
 var diff = moment(dataFinal,"DD/MM/YYYY").diff(moment(dataInicial,"DD/MM/YYYY"));
